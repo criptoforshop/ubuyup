@@ -1,0 +1,111 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+    color: #444;
+    
+}
+
+.nav-wrapper {
+	padding: 0 50px;
+}
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: #1c1c1c;
+
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+
+.section-contatto {
+	height: 100%;
+	width: 100%;
+}
+
+.header-subtitle {
+    
+    font-size:1.5em;
+    margin: 20px 20px;
+    background-color: #e53935;
+      
+}
+
+.underline{
+    
+    text-decoration: underline;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+.col-servizio {
+    margin-top: 60px;
+    }
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+#servizio p {
+    font-size: 1.3em;
+    margin-bottom: 60px;
+    
+}
+
+.btn-registrazione {
+	width: 100%
+}
+
+.registrazione-icon {
+	font-size: 4em;
+	margin-top: 60px;
+
+}
+
+#sezione {
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+footer.page-footer {
+  margin: 0;
+  background-color: #1c1c1c;
+}
+
+.social-icon {
+	font-size: 1.5em;
+	color: white;
+}
+.social-icon:hover {
+	color: #e53935;
+}
